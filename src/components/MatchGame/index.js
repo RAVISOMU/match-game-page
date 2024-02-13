@@ -291,7 +291,7 @@ class MatchGame extends Component {
     if (isGameOnProgress && matchImage.id === id) {
       this.setState({
         matchImage:
-          imagesList[Math.ceil(Math.random() * imagesList.length - 1)],
+          imagesList[Math.ceil(Math.random() * imagesList.length)],
         score: updatedScore,
       })
     } else {
