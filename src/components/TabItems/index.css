@@ -1,0 +1,28 @@
+.tab-list-item {
+  margin-right: 8px;
+}
+
+.tab-button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-list-item {
+    margin-right: 20px;
+  }
+
+  .tab-button {
+    font-size: 20px;
+  }
+}
+
+.active-tab {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
